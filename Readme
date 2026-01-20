@@ -1,0 +1,11 @@
+# Noise-Generating and Imaging Mechanism Inspired Implicit Regularization Learning Network for Low Dose CT Reconstrution
+## Installation
+
+### Prerequisites
+- Python 3.7+
+- CUDA-capable GPU (recommended)
+- ASTRA Toolbox with CUDA support
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
