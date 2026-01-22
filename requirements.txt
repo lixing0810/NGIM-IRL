@@ -1,0 +1,5 @@
+dival==0.6.2
+odl==0.8.3
+torch==1.12.1
+torchvision==0.13.1
+kornia ==0.5.4
