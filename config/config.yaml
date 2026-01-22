@@ -1,0 +1,59 @@
+# Training Configuration
+training:
+  mode: 'train'  # train, test, or eval
+  epochs: 15
+  batch_size: 1
+  learning_rate: 0.0001
+  num_workers: 0
+  pin_memory: false
+
+# Model Configuration
+model:
+  name: 'NGIM_IRL'
+  input_channels: 1
+  output_channels: 1
+  num_stages: 5
+  unet_features: 64
+  unet_depth: 4
+  dropout: 0.0
+
+# Data Configuration
+data:
+  dataset: 'lodopab'
+  train_size: null  # null for full dataset
+  test_size: null
+  image_size: 362
+  normalize: true
+  data_root: '/path/to/data/'  # Update with your path
+
+# Physics Configuration
+physics:
+  num_angles: 1000
+  detector_size: 513
+  min_pt: [-0.13, -0.13]
+  max_pt: [0.13, 0.13]
+  mu_water: 20.0
+  mu_air: 0.02
+  incident_flux: 4096.0
+
+# Optimization Configuration
+optimizer:
+  type: 'adam'
+  weight_decay: 0.0
+  beta1: 0.9
+  beta2: 0.999
+
+# Loss Configuration
+loss:
+  type: 'mse'  # mse, l1, or custom
+  weights:
+    reconstruction: 1.0
+    consistency: 0.1
+
+# Output Configuration
+output:
+  log_dir: '/public/home/lixing/lodopab_logs/logs/'
+  checkpoint_dir: '/public/home/lixing/lodopab_logs/checkpoints/'
+  result_dir: '/public/home/lixing/lodopab_logs/results/'
+  save_frequency: 1
+  tensorboard: true
