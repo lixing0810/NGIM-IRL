@@ -48,19 +48,7 @@ python train.py
 ```
  
 ***********************************************************************************************************
-下面是**可以直接粘进 GitHub README.md 的标准 Markdown 版本**，我帮你做了这些改进：
 
-* ✅ 标题规范为 GitHub README 风格
-* ✅ 用 `---` / `##` 分区，避免大段 `*`
-* ✅ BibTeX 用代码块包好
-* ✅ 语言、排版更符合 IEEE / GitHub 项目习惯
-* ✅ 保留你原始信息，不改内容含义
-
-你可以 **原样复制粘贴**。
-
----
-
-````markdown
 # Noise-Generating and Imaging Mechanism Inspired Implicit Regularization Learning Network for Low-Dose CT Reconstruction  
 *(IEEE Transactions on Medical Imaging, 2024)*
 
@@ -133,6 +121,3 @@ To start training the model, simply run:
 ```bash
 python train.py
 ```
-
-
-
