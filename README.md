@@ -1,6 +1,7 @@
 ***********************************************************************************************************
 
 # Noise-Generating and Imaging Mechanism Inspired Implicit Regularization Learning Network for Low-Dose CT Reconstruction  
+# Noise-generating and imaging mechanism inspired implicit regularization learning network for low dose ct reconstrution  
 *(IEEE Transactions on Medical Imaging, 2024)*
 
 ## Overview
