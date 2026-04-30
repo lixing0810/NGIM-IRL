@@ -7,7 +7,7 @@
 
 This repository provides the official implementation of the paper:
 
-> **Noise-Generating and Imaging Mechanism Inspired Implicit Regularization Learning Network for Low-Dose CT Reconstruction**  
+> **Noise-generating and imaging mechanism inspired implicit regularization learning network for low dose ct reconstrution**  
 > *IEEE Transactions on Medical Imaging (TMI), 2024*
 
 If you find this code useful for your research, please consider citing our paper.
@@ -24,7 +24,7 @@ If you find this code useful for your research, please consider citing our paper
   volume={43},
   number={5},
   pages={1677--1689},
-  year={2023},
+  year={2024},
   publisher={IEEE}
 }
 ````
